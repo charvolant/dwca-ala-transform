@@ -1,0 +1,13 @@
+{
+  "name": "vocab-1",
+  "description": "A test vocabulary",
+  "terms": [
+    {
+      "name": "term-1"
+    },
+    {
+      "name": "term-2",
+      "uri": "urn:x-vocab:term:2"
+    }
+  ]
+}

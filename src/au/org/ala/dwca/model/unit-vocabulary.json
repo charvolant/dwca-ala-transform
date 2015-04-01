@@ -1,0 +1,59 @@
+{
+  "uri": "http://ala.org.au/unit",
+  "name": "Units",
+  "title": "Unit vocabulary",
+  "description": "This document contains a list of Darwin Core terms that have the dwcattributes:status equal to \"recommended\". For the full normative RDF document of all Darwin Core terms, see dwctermshistory.rdf. To comment on this schema, please create a new issue in https://github.com/tdwg/dwc/issues",
+  "terms": [
+    {
+      "uri": "http://ala.org.au/unit/length/metre",
+      "symbol": "m",
+      "aliases": [ "meter" ]
+    },
+    {
+      "uri": "http://ala.org.au/unit/length/centimetre",
+      "symbol": "cm",
+      "aliases": [ "centimeter" ]
+    },
+    {
+      "uri": "http://ala.org.au/unit/length/millimetre",
+      "symbol": "mm",
+      "aliases": [ "millimeter" ]
+    },
+    {
+      "uri": "http://ala.org.au/unit/mass/kilogram",
+      "symbol": "kg"
+    },
+    {
+      "uri": "http://ala.org.au/unit/duration/second",
+      "symbol": "s"
+    },
+    {
+      "uri": "http://ala.org.au/unit/temperature/celsius",
+      "symbol": "C",
+      "aliases": [ "deg C" ]
+    },
+    {
+      "uri": "http://ala.org.au/unit/saturation/milligrams-per-litre",
+      "symbol": "mg/L"
+    },
+    {
+      "uri": "http://ala.org.au/unit/solute/percentage-saturation",
+      "symbol": "% sat"
+    },
+    {
+      "uri": "http://ala.org.au/unit/acidity/ph",
+      "symbol": "pH",
+      "aliases": ["pH units"]
+    },
+    {
+      "uri": "http://ala.org.au/unit/conductivity/micro-siemens-per-centimetre",
+      "symbol": "µS/cm"
+    },
+    {
+      "uri": "http://ala.org.au/unit/turbidity/nephelometric-turbidity-units",
+      "symbol": "NTU",
+      "aliases": [ "NTUs" ],
+      "descriptive": "ntu"
+    }
+  ]
+}

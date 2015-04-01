@@ -1,0 +1,1161 @@
+{
+  "name": "DwC",
+  "title": "Darwin Core Recommended Terms",
+  "description": "This document contains a list of Darwin Core terms that have the dwcattributes:status equal to \"recommended\". For the full normative RDF document of all Darwin Core terms, see dwctermshistory.rdf. To comment on this schema, please create a new issue in https://github.com/tdwg/dwc/issues",
+  "uri": "http://rs.tdwg.org/dwc/terms/",
+  "terms": [
+    {
+      "name": "acceptedNameUsage",
+      "title": "Accepted Name Usage",
+      "description": "The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon.",
+      "uri": "http://rs.tdwg.org/dwc/terms/acceptedNameUsage"
+    },
+    {
+      "name": "acceptedNameUsageID",
+      "title": "Accepted Name Usage ID",
+      "description": "An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.",
+      "uri": "http://rs.tdwg.org/dwc/terms/acceptedNameUsageID"
+    },
+    {
+      "name": "accordingTo",
+      "title": "According To",
+      "description": "Abstract term to attribute information to a source.",
+      "uri": "http://rs.tdwg.org/dwc/terms/accordingTo"
+    },
+    {
+      "name": "associatedMedia",
+      "title": "Associated Media",
+      "description": "A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of media associated with the Occurrence.",
+      "uri": "http://rs.tdwg.org/dwc/terms/associatedMedia"
+    },
+    {
+      "name": "associatedOccurrences",
+      "title": "Associated Occurrences",
+      "description": "A list (concatenated and separated) of identifiers of other Occurrence records and their associations to this Occurrence.",
+      "uri": "http://rs.tdwg.org/dwc/terms/associatedOccurrences"
+    },
+    {
+      "name": "associatedOrganisms",
+      "title": "Associated Organisms",
+      "description": "A list (concatenated and separated) of identifiers of other Organisms and their associations to this Organism.",
+      "uri": "http://rs.tdwg.org/dwc/terms/associatedOrganisms"
+    },
+    {
+      "name": "associatedReferences",
+      "title": "Associated References",
+      "description": "A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.",
+      "uri": "http://rs.tdwg.org/dwc/terms/associatedReferences"
+    },
+    {
+      "name": "associatedSequences",
+      "title": "Associated Sequences",
+      "description": "A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence.",
+      "uri": "http://rs.tdwg.org/dwc/terms/associatedSequences"
+    },
+    {
+      "name": "associatedTaxa",
+      "title": "Associated Taxa",
+      "description": "A list (concatenated and separated) of identifiers or names of taxa and their associations with the Occurrence.",
+      "uri": "http://rs.tdwg.org/dwc/terms/associatedTaxa"
+    },
+    {
+      "name": "basisOfRecord",
+      "title": "Basis of Record",
+      "description": "The specific nature of the data record.",
+      "uri": "http://rs.tdwg.org/dwc/terms/basisOfRecord"
+    },
+    {
+      "name": "bed",
+      "title": "Bed",
+      "description": "The full name of the lithostratigraphic bed from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/bed"
+    },
+    {
+      "name": "behavior",
+      "title": "Behavior",
+      "description": "A description of the behavior shown by the subject at the time the Occurrence was recorded.  Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/behavior"
+    },
+    {
+      "name": "catalogNumber",
+      "title": "Catalog Number",
+      "description": "An identifier (preferably unique) for the record within the data set or collection.",
+      "uri": "http://rs.tdwg.org/dwc/terms/catalogNumber"
+    },
+    {
+      "name": "class",
+      "title": "Class",
+      "description": "The full scientific name of the class in which the taxon is classified.",
+      "uri": "http://rs.tdwg.org/dwc/terms/class"
+    },
+    {
+      "name": "collectionCode",
+      "title": "Collection Code",
+      "description": "The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.",
+      "uri": "http://rs.tdwg.org/dwc/terms/collectionCode"
+    },
+    {
+      "name": "collectionID",
+      "title": "Collection ID",
+      "description": "An identifier for the collection or dataset from which the record was derived.",
+      "uri": "http://rs.tdwg.org/dwc/terms/collectionID"
+    },
+    {
+      "name": "continent",
+      "title": "Continent",
+      "description": "The name of the continent in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.",
+      "uri": "http://rs.tdwg.org/dwc/terms/continent"
+    },
+    {
+      "name": "coordinatePrecision",
+      "title": "Coordinate Precision",
+      "description": "A decimal representation of the precision of the coordinates given in the decimalLatitude and decimalLongitude.",
+      "uri": "http://rs.tdwg.org/dwc/terms/coordinatePrecision"
+    },
+    {
+      "name": "coordinateUncertaintyInMeters",
+      "title": "Coordinate Uncertainty In Meters",
+      "description": "The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term.",
+      "uri": "http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters"
+    },
+    {
+      "name": "country",
+      "title": "Country",
+      "description": "The name of the country or major administrative unit in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.",
+      "uri": "http://rs.tdwg.org/dwc/terms/country"
+    },
+    {
+      "name": "countryCode",
+      "title": "Country Code",
+      "description": "The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes.",
+      "uri": "http://rs.tdwg.org/dwc/terms/countryCode"
+    },
+    {
+      "name": "county",
+      "title": "County",
+      "description": "The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.",
+      "uri": "http://rs.tdwg.org/dwc/terms/county"
+    },
+    {
+      "name": "dataGeneralizations",
+      "title": "Data Generalizations",
+      "description": "Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.",
+      "uri": "http://rs.tdwg.org/dwc/terms/dataGeneralizations"
+    },
+    {
+      "name": "datasetID",
+      "title": "Dataset ID",
+      "description": "An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.",
+      "uri": "http://rs.tdwg.org/dwc/terms/datasetID"
+    },
+    {
+      "name": "datasetName",
+      "title": "Dataset Name",
+      "description": "The name identifying the data set from which the record was derived.",
+      "uri": "http://rs.tdwg.org/dwc/terms/datasetName"
+    },
+    {
+      "name": "dateIdentified",
+      "title": "Date Identified",
+      "description": "The date on which the subject was identified as representing the Taxon. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).",
+      "uri": "http://rs.tdwg.org/dwc/terms/dateIdentified"
+    },
+    {
+      "name": "day",
+      "title": "Day",
+      "description": "The integer day of the month on which the Event occurred.",
+      "uri": "http://rs.tdwg.org/dwc/terms/day"
+    },
+    {
+      "name": "decimalLatitude",
+      "title": "Decimal Latitude",
+      "description": "The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.",
+      "uri": "http://rs.tdwg.org/dwc/terms/decimalLatitude"
+    },
+    {
+      "name": "decimalLongitude",
+      "title": "Decimal Longitude",
+      "description": "The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.",
+      "uri": "http://rs.tdwg.org/dwc/terms/decimalLongitude"
+    },
+    {
+      "name": "disposition",
+      "title": "Disposition",
+      "description": "The current state of a specimen with respect to the collection identified in collectionCode or collectionID. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/disposition"
+    },
+    {
+      "name": "dynamicProperties",
+      "title": "Dynamic Properties",
+      "description": "A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content.",
+      "uri": "http://rs.tdwg.org/dwc/terms/dynamicProperties"
+    },
+    {
+      "name": "earliestAgeOrLowestStage",
+      "title": "Earliest Age Or Lowest Stage",
+      "description": "The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/earliestAgeOrLowestStage"
+    },
+    {
+      "name": "earliestEonOrLowestEonothem",
+      "title": "Earliest Eon Or Lowest Eonothem",
+      "description": "The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name (\"Precambrian\") attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem"
+    },
+    {
+      "name": "earliestEpochOrLowestSeries",
+      "title": "Earliest Epoch Or Lowest Series",
+      "description": "The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/earliestEpochOrLowestSeries"
+    },
+    {
+      "name": "earliestEraOrLowestErathem",
+      "title": "Earliest Era Or Lowest Erathem",
+      "description": "The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem"
+    },
+    {
+      "name": "earliestPeriodOrLowestSystem",
+      "title": "Earliest Period Or Lowest System",
+      "description": "The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/earliestPeriodOrLowestSystem"
+    },
+    {
+      "name": "endDayOfYear",
+      "title": "End Day Of Year",
+      "description": "The latest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).",
+      "uri": "http://rs.tdwg.org/dwc/terms/endDayOfYear"
+    },
+    {
+      "name": "establishmentMeans",
+      "title": "Establishment Means",
+      "description": "The process by which the biological individual(s) represented in the Occurrence became established at the location. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/establishmentMeans"
+    },
+    {
+      "name": "Event",
+      "title": "Event",
+      "description": "An action that occurs at some location during some time.",
+      "uri": "http://rs.tdwg.org/dwc/terms/Event"
+    },
+    {
+      "name": "eventDate",
+      "title": "Event Date",
+      "description": "The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).",
+      "uri": "http://rs.tdwg.org/dwc/terms/eventDate"
+    },
+    {
+      "name": "eventID",
+      "title": "Event ID",
+      "description": "An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.",
+      "uri": "http://rs.tdwg.org/dwc/terms/eventID"
+    },
+    {
+      "name": "eventRemarks",
+      "title": "Event Remarks",
+      "description": "Comments or notes about the Event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/eventRemarks"
+    },
+    {
+      "name": "eventTime",
+      "title": "Event Time",
+      "description": "The time or interval during which an Event occurred. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).",
+      "uri": "http://rs.tdwg.org/dwc/terms/eventTime"
+    },
+    {
+      "name": "family",
+      "title": "Family",
+      "description": "The full scientific name of the family in which the taxon is classified.",
+      "uri": "http://rs.tdwg.org/dwc/terms/family"
+    },
+    {
+      "name": "fieldNotes",
+      "title": "Field Notes",
+      "description": "One of a) an indicator of the existence of, b) a reference to (publication, URI), or c) the text of notes taken in the field about the Event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/fieldNotes"
+    },
+    {
+      "name": "fieldNumber",
+      "title": "Field Number",
+      "description": "An identifier given to the event in the field. Often serves as a link between field notes and the Event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/fieldNumber"
+    },
+    {
+      "name": "footprintSpatialFit",
+      "title": "Footprint Spatial Fit",
+      "description": "The ratio of the area of the footprint (footprintWKT) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given footprint does not completely contain the original representation. The footprintSpatialFit is undefined (and should be left blank) if the original representation is a point and the given georeference is not that same point. If both the original and the given georeference are the same point, the footprintSpatialFit is 1.",
+      "uri": "http://rs.tdwg.org/dwc/terms/footprintSpatialFit"
+    },
+    {
+      "name": "footprintSRS",
+      "title": "Footprint SRS",
+      "description": "A Well-Known Text (WKT) representation of the Spatial Reference System (SRS) for the footprintWKT of the Location. Do not use this term to describe the SRS of the decimalLatitude and decimalLongitude, even if it is the same as for the footprintWKT - use the geodeticDatum instead.",
+      "uri": "http://rs.tdwg.org/dwc/terms/footprintSRS"
+    },
+    {
+      "name": "footprintWKT",
+      "title": "Footprint WKT",
+      "description": "A Well-Known Text (WKT) representation of the shape (footprint, geometry) that defines the Location. A Location may have both a point-radius representation (see decimalLatitude) and a footprint representation, and they may differ from each other.",
+      "uri": "http://rs.tdwg.org/dwc/terms/footprintWKT"
+    },
+    {
+      "name": "formation",
+      "title": "Formation",
+      "description": "The full name of the lithostratigraphic formation from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/formation"
+    },
+    {
+      "name": "FossilSpecimen",
+      "title": "Fossil Specimen",
+      "description": "A preserved specimen that is a fossil.",
+      "uri": "http://rs.tdwg.org/dwc/terms/FossilSpecimen"
+    },
+    {
+      "name": "genus",
+      "title": "Genus",
+      "description": "The full scientific name of the genus in which the taxon is classified.",
+      "uri": "http://rs.tdwg.org/dwc/terms/genus"
+    },
+    {
+      "name": "geodeticDatum",
+      "title": "Geodetic Datum",
+      "description": "The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value \"unknown\".",
+      "uri": "http://rs.tdwg.org/dwc/terms/geodeticDatum"
+    },
+    {
+      "name": "GeologicalContext",
+      "title": "Geological Context",
+      "description": "Geological information, such as stratigraphy, that qualifies a region or place.",
+      "uri": "http://rs.tdwg.org/dwc/terms/GeologicalContext"
+    },
+    {
+      "name": "geologicalContextID",
+      "title": "Geological Context ID",
+      "description": "An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set.",
+      "uri": "http://rs.tdwg.org/dwc/terms/geologicalContextID"
+    },
+    {
+      "name": "georeferencedBy",
+      "title": "Georeferenced By",
+      "description": "A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location.",
+      "uri": "http://rs.tdwg.org/dwc/terms/georeferencedBy"
+    },
+    {
+      "name": "georeferencedDate",
+      "title": "Georeferenced Date",
+      "description": "The date on which the Location was georeferenced. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).",
+      "uri": "http://rs.tdwg.org/dwc/terms/georeferencedDate"
+    },
+    {
+      "name": "georeferenceProtocol",
+      "title": "Georeference Protocol",
+      "description": "A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties.",
+      "uri": "http://rs.tdwg.org/dwc/terms/georeferenceProtocol"
+    },
+    {
+      "name": "georeferenceRemarks",
+      "title": "Georeference Remarks",
+      "description": "Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol.",
+      "uri": "http://rs.tdwg.org/dwc/terms/georeferenceRemarks"
+    },
+    {
+      "name": "georeferenceSources",
+      "title": "Georeference Sources",
+      "description": "A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources.",
+      "uri": "http://rs.tdwg.org/dwc/terms/georeferenceSources"
+    },
+    {
+      "name": "georeferenceVerificationStatus",
+      "title": "Georeference Verification Status",
+      "description": "A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus"
+    },
+    {
+      "name": "group",
+      "title": "Group",
+      "description": "The full name of the lithostratigraphic group from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/group"
+    },
+    {
+      "name": "habitat",
+      "title": "Habitat",
+      "description": "A category or description of the habitat in which the Event occurred.",
+      "uri": "http://rs.tdwg.org/dwc/terms/habitat"
+    },
+    {
+      "name": "higherClassification",
+      "title": "Higher Classification",
+      "description": "A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.",
+      "uri": "http://rs.tdwg.org/dwc/terms/higherClassification"
+    },
+    {
+      "name": "higherGeography",
+      "title": "Higher Geography",
+      "description": "A list (concatenated and separated) of geographic names less specific than the information captured in the locality term.",
+      "uri": "http://rs.tdwg.org/dwc/terms/higherGeography"
+    },
+    {
+      "name": "higherGeographyID",
+      "title": "Higher Geography ID",
+      "description": "An identifier for the geographic region within which the Location occurred. Recommended best practice is to use an persistent identifier from a controlled vocabulary such as the Getty Thesaurus of Geographic Names.",
+      "uri": "http://rs.tdwg.org/dwc/terms/higherGeographyID"
+    },
+    {
+      "name": "highestBiostratigraphicZone",
+      "title": "Highest Biostratigraphic Zone",
+      "description": "The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/highestBiostratigraphicZone"
+    },
+    {
+      "name": "HumanObservation",
+      "title": "Human Observation",
+      "description": "An output of a human observation process.",
+      "uri": "http://rs.tdwg.org/dwc/terms/HumanObservation"
+    },
+    {
+      "name": "Identification",
+      "title": "Identification",
+      "description": "A taxonomic determination (e.g., the assignment to a taxon).",
+      "uri": "http://rs.tdwg.org/dwc/terms/Identification"
+    },
+    {
+      "name": "identificationID",
+      "title": "Identification ID",
+      "description": "An identifier for the Identification (the body of information associated with the assignment of a scientific name). May be a global unique identifier or an identifier specific to the data set.",
+      "uri": "http://rs.tdwg.org/dwc/terms/identificationID"
+    },
+    {
+      "name": "identificationQualifier",
+      "title": "Identification Qualifier",
+      "description": "A brief phrase or a standard term (\"cf.\", \"aff.\") to express the determiner's doubts about the Identification.",
+      "uri": "http://rs.tdwg.org/dwc/terms/identificationQualifier"
+    },
+    {
+      "name": "identificationReferences",
+      "title": "Identification References",
+      "description": "A list (concatenated and separated) of references (publication, global unique identifier, URI) used in the Identification.",
+      "uri": "http://rs.tdwg.org/dwc/terms/identificationReferences"
+    },
+    {
+      "name": "identificationRemarks",
+      "title": "Identification Remarks",
+      "description": "Comments or notes about the Identification.",
+      "uri": "http://rs.tdwg.org/dwc/terms/identificationRemarks"
+    },
+    {
+      "name": "identificationVerificationStatus",
+      "title": "Identification Verification Status",
+      "description": "A categorical indicator of the extent to which the taxonomic identification has been verified to be correct. Recommended best practice is to use a controlled vocabulary such as that used in HISPID/ABCD.",
+      "uri": "http://rs.tdwg.org/dwc/terms/identificationVerificationStatus"
+    },
+    {
+      "name": "identifiedBy",
+      "title": "Identified By",
+      "description": "A list (concatenated and separated) of names of people, groups, or organizations who assigned the Taxon to the subject.",
+      "uri": "http://rs.tdwg.org/dwc/terms/identifiedBy"
+    },
+    {
+      "name": "individualCount",
+      "title": "Individual Count",
+      "description": "The number of individuals represented present at the time of the Occurrence.",
+      "uri": "http://rs.tdwg.org/dwc/terms/individualCount"
+    },
+    {
+      "name": "informationWithheld",
+      "title": "Information Withheld",
+      "description": "Additional information that exists, but that has not been shared in the given record.",
+      "uri": "http://rs.tdwg.org/dwc/terms/informationWithheld"
+    },
+    {
+      "name": "infraspecificEpithet",
+      "title": "Infraspecific Epithet",
+      "description": "The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.",
+      "uri": "http://rs.tdwg.org/dwc/terms/infraspecificEpithet"
+    },
+    {
+      "name": "institutionCode",
+      "title": "Institution Code",
+      "description": "The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.",
+      "uri": "http://rs.tdwg.org/dwc/terms/institutionCode"
+    },
+    {
+      "name": "institutionID",
+      "title": "Institution ID",
+      "description": "An identifier for the institution having custody of the object(s) or information referred to in the record.",
+      "uri": "http://rs.tdwg.org/dwc/terms/institutionID"
+    },
+    {
+      "name": "island",
+      "title": "Island",
+      "description": "The name of the island on or near which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.",
+      "uri": "http://rs.tdwg.org/dwc/terms/island"
+    },
+    {
+      "name": "islandGroup",
+      "title": "Island Group",
+      "description": "The name of the island group in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.",
+      "uri": "http://rs.tdwg.org/dwc/terms/islandGroup"
+    },
+    {
+      "name": "kingdom",
+      "title": "Kingdom",
+      "description": "The full scientific name of the kingdom in which the taxon is classified.",
+      "uri": "http://rs.tdwg.org/dwc/terms/kingdom"
+    },
+    {
+      "name": "latestAgeOrHighestStage",
+      "title": "Latest AgeOr Highest Stage",
+      "description": "The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/latestAgeOrHighestStage"
+    },
+    {
+      "name": "latestEonOrHighestEonothem",
+      "title": "Latest Eon Or Highest Eonothem",
+      "description": "The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name (\"Precambrian\") attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem"
+    },
+    {
+      "name": "latestEpochOrHighestSeries",
+      "title": "Latest Epoch Or Highest Series",
+      "description": "The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries"
+    },
+    {
+      "name": "latestEraOrHighestErathem",
+      "title": "Latest Era Or Highest Erathem",
+      "description": "The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/latestEraOrHighestErathem"
+    },
+    {
+      "name": "latestPeriodOrHighestSystem",
+      "title": "Latest Period Or Highest System",
+      "description": "The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem"
+    },
+    {
+      "name": "lifeStage",
+      "title": "Life Stage",
+      "description": "The age class or life stage of the biological individual(s) at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/lifeStage"
+    },
+    {
+      "name": "lithostratigraphicTerms",
+      "title": "Lithostratigraphic Terms",
+      "description": "The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms"
+    },
+    {
+      "name": "LivingSpecimen",
+      "title": "Living Specimen",
+      "description": "A specimen that is alive.",
+      "uri": "http://rs.tdwg.org/dwc/terms/LivingSpecimen"
+    },
+    {
+      "name": "locality",
+      "title": "Locality",
+      "description": "The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.",
+      "uri": "http://rs.tdwg.org/dwc/terms/locality"
+    },
+    {
+      "name": "locationAccordingTo",
+      "title": "Location According To",
+      "description": "Information about the source of this Location information. Could be a publication (gazetteer), institution, or team of individuals.",
+      "uri": "http://rs.tdwg.org/dwc/terms/locationAccordingTo"
+    },
+    {
+      "name": "locationID",
+      "title": "Location ID",
+      "description": "An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set.",
+      "uri": "http://rs.tdwg.org/dwc/terms/locationID"
+    },
+    {
+      "name": "locationRemarks",
+      "title": "Location Remarks",
+      "description": "Comments or notes about the Location.",
+      "uri": "http://rs.tdwg.org/dwc/terms/locationRemarks"
+    },
+    {
+      "name": "lowestBiostratigraphicZone",
+      "title": "Lowest Biostratigraphic Zone",
+      "description": "The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone"
+    },
+    {
+      "name": "MachineObservation",
+      "title": "Machine Observation",
+      "description": "An output of a machine observation process.",
+      "uri": "http://rs.tdwg.org/dwc/terms/MachineObservation"
+    },
+    {
+      "name": "MaterialSample",
+      "title": "Material Sample",
+      "description": "A physical results of a sampling (or subsampling) event. In biological collections, the material sample is typically collected, and either preserved or destructively processed.",
+      "uri": "http://rs.tdwg.org/dwc/terms/MaterialSample"
+    },
+    {
+      "name": "materialSampleID",
+      "title": "Material Sample ID",
+      "description": "An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique.",
+      "uri": "http://rs.tdwg.org/dwc/terms/materialSampleID"
+    },
+    {
+      "name": "maximumDepthInMeters",
+      "title": "Maximum Depth In Meters",
+      "description": "The greater depth of a range of depth below the local surface, in meters.",
+      "uri": "http://rs.tdwg.org/dwc/terms/maximumDepthInMeters"
+    },
+    {
+      "name": "maximumDistanceAboveSurfaceInMeters",
+      "title": "Maximum Distance Above Surface In Meters",
+      "description": "The greater distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation.",
+      "uri": "http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters"
+    },
+    {
+      "name": "maximumElevationInMeters",
+      "title": "Maximum Elevation In Meters",
+      "description": "The upper limit of the range of elevation (altitude, usually above sea level), in meters.",
+      "uri": "http://rs.tdwg.org/dwc/terms/maximumElevationInMeters"
+    },
+    {
+      "name": "measurementAccuracy",
+      "title": "Measurement Accuracy",
+      "description": "The description of the potential error associated with the measurementValue.",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementAccuracy"
+    },
+    {
+      "name": "measurementDeterminedBy",
+      "title": "Measurement Determined By",
+      "description": "A list (concatenated and separated) of names of people, groups, or organizations who determined the value of the MeasurementOrFact.",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementDeterminedBy"
+    },
+    {
+      "name": "measurementDeterminedDate",
+      "title": "Measurement Determined Date",
+      "description": "The date on which the MeasurementOrFact was made. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementDeterminedDate"
+    },
+    {
+      "name": "measurementID",
+      "title": "Measurement ID",
+      "description": "An identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions). May be a global unique identifier or an identifier specific to the data set.",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementID"
+    },
+    {
+      "name": "measurementMethod",
+      "title": "Measurement Method",
+      "description": "A description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion.",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementMethod"
+    },
+    {
+      "name": "MeasurementOrFact",
+      "title": "Measurement or Fact",
+      "description": "A measurement of or fact about an rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource).",
+      "uri": "http://rs.tdwg.org/dwc/terms/MeasurementOrFact"
+    },
+    {
+      "name": "measurementRemarks",
+      "title": "Measurement Remarks",
+      "description": "Comments or notes accompanying the MeasurementOrFact.",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementRemarks"
+    },
+    {
+      "name": "measurementType",
+      "title": "Measurement Type",
+      "description": "The nature of the measurement, fact, characteristic, or assertion. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementType"
+    },
+    {
+      "name": "measurementUnit",
+      "title": "Measurement Unit",
+      "description": "The units associated with the measurementValue. Recommended best practice is to use the International System of Units (SI).",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementUnit"
+    },
+    {
+      "name": "measurementValue",
+      "title": "Measurement Value",
+      "description": "The value of the measurement, fact, characteristic, or assertion.",
+      "uri": "http://rs.tdwg.org/dwc/terms/measurementValue"
+    },
+    {
+      "name": "member",
+      "title": "Member",
+      "description": "The full name of the lithostratigraphic member from which the cataloged item was collected.",
+      "uri": "http://rs.tdwg.org/dwc/terms/member"
+    },
+    {
+      "name": "minimumDepthInMeters",
+      "title": "Minimum Depth In Meters",
+      "description": "The lesser depth of a range of depth below the local surface, in meters.",
+      "uri": "http://rs.tdwg.org/dwc/terms/minimumDepthInMeters"
+    },
+    {
+      "name": "minimumDistanceAboveSurfaceInMeters",
+      "title": "Minimum Distance Above Surface In Meters",
+      "description": "The lesser distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation.",
+      "uri": "http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters"
+    },
+    {
+      "name": "minimumElevationInMeters",
+      "title": "Minimum Elevation In Meters",
+      "description": "The lower limit of the range of elevation (altitude, usually above sea level), in meters.",
+      "uri": "http://rs.tdwg.org/dwc/terms/minimumElevationInMeters"
+    },
+    {
+      "name": "month",
+      "title": "Month",
+      "description": "The ordinal month in which the Event occurred.",
+      "uri": "http://rs.tdwg.org/dwc/terms/month"
+    },
+    {
+      "name": "municipality",
+      "title": "Municipality",
+      "description": "The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.",
+      "uri": "http://rs.tdwg.org/dwc/terms/municipality"
+    },
+    {
+      "name": "nameAccordingTo",
+      "title": "Name According To",
+      "description": "The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin \"sensu\" or \"sec.\" (from secundum, meaning \"according to\"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.",
+      "uri": "http://rs.tdwg.org/dwc/terms/nameAccordingTo"
+    },
+    {
+      "name": "nameAccordingToID",
+      "title": "Name According To ID",
+      "description": "An identifier for the source in which the specific taxon concept circumscription is defined or implied. See nameAccordingTo.",
+      "uri": "http://rs.tdwg.org/dwc/terms/nameAccordingToID"
+    },
+    {
+      "name": "namePublishedIn",
+      "title": "Name Published In",
+      "description": "A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.",
+      "uri": "http://rs.tdwg.org/dwc/terms/namePublishedIn"
+    },
+    {
+      "name": "namePublishedInID",
+      "title": "Name Published In ID",
+      "description": "An identifier for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.",
+      "uri": "http://rs.tdwg.org/dwc/terms/namePublishedInID"
+    },
+    {
+      "name": "namePublishedInYear",
+      "title": "Name Published In Year",
+      "description": "The four-digit year in which the scientificName was published.",
+      "uri": "http://rs.tdwg.org/dwc/terms/namePublishedInYear"
+    },
+    {
+      "name": "nomenclaturalCode",
+      "title": "Nomenclatural Code",
+      "description": "The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/nomenclaturalCode"
+    },
+    {
+      "name": "nomenclaturalStatus",
+      "title": "Nomenclatural Status",
+      "description": "The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code.  It requires no taxonomic opinion.",
+      "uri": "http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"
+    },
+    {
+      "name": "Occurrence",
+      "title": "Occurrence",
+      "description": "An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time.",
+      "uri": "http://rs.tdwg.org/dwc/terms/Occurrence"
+    },
+    {
+      "name": "occurrenceID",
+      "title": "Occurrence ID",
+      "description": "An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique.",
+      "uri": "http://rs.tdwg.org/dwc/terms/occurrenceID"
+    },
+    {
+      "name": "occurrenceRemarks",
+      "title": "Occurrence Remarks",
+      "description": "Comments or notes about the Occurrence.",
+      "uri": "http://rs.tdwg.org/dwc/terms/occurrenceRemarks"
+    },
+    {
+      "name": "occurrenceStatus",
+      "title": "Occurrence Status",
+      "description": "A statement about the presence or absence of a Taxon at a Location. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/occurrenceStatus"
+    },
+    {
+      "name": "order",
+      "title": "Order",
+      "description": "The full scientific name of the order in which the taxon is classified.",
+      "uri": "http://rs.tdwg.org/dwc/terms/order"
+    },
+    {
+      "name": "Organism",
+      "title": "Organism",
+      "description": "A particular organism or defined group of organisms considered to be taxonomically homogeneous.",
+      "uri": "http://rs.tdwg.org/dwc/terms/Organism"
+    },
+    {
+      "name": "organismID",
+      "title": "Organism ID",
+      "description": "An identifier for the Organism instance (as opposed to a particular digital record of the Organism). May be a globally unique identifier or an identifier specific to the data set.",
+      "uri": "http://rs.tdwg.org/dwc/terms/organismID"
+    },
+    {
+      "name": "organismName",
+      "title": "Organism Name",
+      "description": "A textual name or label assigned to an Organism instance.",
+      "uri": "http://rs.tdwg.org/dwc/terms/organismName"
+    },
+    {
+      "name": "organismQuantity",
+      "title": "Organism Quantity",
+      "description": "A number or enumeration value for the quantity of organisms.",
+      "uri": "http://rs.tdwg.org/dwc/terms/organismQuantity"
+    },
+    {
+      "name": "organismQuantityType",
+      "title": "Organism Quantity Type",
+      "description": "The type of quantification system used for the quantity of organisms.",
+      "uri": "http://rs.tdwg.org/dwc/terms/organismQuantityType"
+    },
+    {
+      "name": "organismRemarks",
+      "title": "Organism Remarks",
+      "description": "Comments or notes about the Organism instance.",
+      "uri": "http://rs.tdwg.org/dwc/terms/organismRemarks"
+    },
+    {
+      "name": "organismScope",
+      "title": "Organism Scope",
+      "description": "A description of the kind of Organism instance. Can be used to indicate whether the Organism instance represents a discrete organism or if it represents a particular type of aggregation. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/organismScope"
+    },
+    {
+      "name": "originalNameUsage",
+      "title": "Original Name Usage",
+      "description": "The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names.",
+      "uri": "http://rs.tdwg.org/dwc/terms/originalNameUsage"
+    },
+    {
+      "name": "originalNameUsageID",
+      "title": "Original Name Usage ID",
+      "description": "An identifier for the name usage (documented meaning of the name according to a source) in which the terminal element of the scientificName was originally established under the rules of the associated nomenclaturalCode.",
+      "uri": "http://rs.tdwg.org/dwc/terms/originalNameUsageID"
+    },
+    {
+      "name": "otherCatalogNumbers",
+      "title": "Other Catalog Numbers",
+      "description": "A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection.",
+      "uri": "http://rs.tdwg.org/dwc/terms/otherCatalogNumbers"
+    },
+    {
+      "name": "ownerInstitutionCode",
+      "title": "Owner Institution Code",
+      "description": "The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.",
+      "uri": "http://rs.tdwg.org/dwc/terms/ownerInstitutionCode"
+    },
+    {
+      "name": "parentEventID",
+      "title": "Parent Event ID",
+      "description": "An identifier for the broader Event that groups this and potentially other Events.",
+      "uri": "http://rs.tdwg.org/dwc/terms/parentEventID"
+    },
+    {
+      "name": "parentNameUsage",
+      "title": "Parent Name Usage",
+      "description": "The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.",
+      "uri": "http://rs.tdwg.org/dwc/terms/parentNameUsage"
+    },
+    {
+      "name": "parentNameUsageID",
+      "title": "Parent Name Usage ID",
+      "description": "An identifier for the name usage (documented meaning of the name according to a source) of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName.",
+      "uri": "http://rs.tdwg.org/dwc/terms/parentNameUsageID"
+    },
+    {
+      "name": "phylum",
+      "title": "Phylum",
+      "description": "The full scientific name of the phylum or division in which the taxon is classified.",
+      "uri": "http://rs.tdwg.org/dwc/terms/phylum"
+    },
+    {
+      "name": "pointRadiusSpatialFit",
+      "title": "Point Radius Spatial Fit",
+      "description": "The ratio of the area of the point-radius (decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given point-radius does not completely contain the original representation. The pointRadiusSpatialFit is undefined (and should be left blank) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the pointRadiusSpatialFit is 1.",
+      "uri": "http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit"
+    },
+    {
+      "name": "preparations",
+      "title": "Preparations",
+      "description": "A list (concatenated and separated) of preparations and preservation methods for a specimen.",
+      "uri": "http://rs.tdwg.org/dwc/terms/preparations"
+    },
+    {
+      "name": "PreservedSpecimen",
+      "title": "Preserved Specimen",
+      "description": "A specimen that has been preserved.",
+      "uri": "http://rs.tdwg.org/dwc/terms/PreservedSpecimen"
+    },
+    {
+      "name": "previousIdentifications",
+      "title": "Previous Identifications",
+      "description": "A list (concatenated and separated) of previous assignments of names to the Organism.",
+      "uri": "http://rs.tdwg.org/dwc/terms/previousIdentifications"
+    },
+    {
+      "name": "recordedBy",
+      "title": "Recorded By",
+      "description": "A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.",
+      "uri": "http://rs.tdwg.org/dwc/terms/recordedBy"
+    },
+    {
+      "name": "recordNumber",
+      "title": "Record Number",
+      "description": "An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number.",
+      "uri": "http://rs.tdwg.org/dwc/terms/recordNumber"
+    },
+    {
+      "name": "relatedResourceID",
+      "title": "Related Resource ID",
+      "description": "An identifier for a related resource (the object, rather than the subject of the relationship).",
+      "uri": "http://rs.tdwg.org/dwc/terms/relatedResourceID"
+    },
+    {
+      "name": "relationshipAccordingTo",
+      "title": "Relationship According To",
+      "description": "The source (person, organization, publication, reference) establishing the relationship between the two resources.",
+      "uri": "http://rs.tdwg.org/dwc/terms/relationshipAccordingTo"
+    },
+    {
+      "name": "relationshipEstablishedDate",
+      "title": "Relationship Established Date",
+      "description": "The date-time on which the relationship between the two resources was established. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).",
+      "uri": "http://rs.tdwg.org/dwc/terms/relationshipEstablishedDate"
+    },
+    {
+      "name": "relationshipOfResource",
+      "title": "Relationship Of Resource",
+      "description": "The relationship of the resource identified by relatedResourceID to the subject (optionally identified by the resourceID). Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/relationshipOfResource"
+    },
+    {
+      "name": "relationshipRemarks",
+      "title": "Relationship Remarks",
+      "description": "Comments or notes about the relationship between the two resources.",
+      "uri": "http://rs.tdwg.org/dwc/terms/relationshipRemarks"
+    },
+    {
+      "name": "reproductiveCondition",
+      "title": "Reproductive Condition",
+      "description": "The reproductive condition of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/reproductiveCondition"
+    },
+    {
+      "name": "resourceID",
+      "title": "Resource ID",
+      "description": "An identifier for the resource that is the subject of the relationship.",
+      "uri": "http://rs.tdwg.org/dwc/terms/resourceID"
+    },
+    {
+      "name": "ResourceRelationship",
+      "title": "Resource Relationship",
+      "description": "A relationship of one rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource) to another.",
+      "uri": "http://rs.tdwg.org/dwc/terms/ResourceRelationship"
+    },
+    {
+      "name": "resourceRelationshipID",
+      "title": "Resource Relationship ID",
+      "description": "An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object).",
+      "uri": "http://rs.tdwg.org/dwc/terms/resourceRelationshipID"
+    },
+    {
+      "name": "samplingEffort",
+      "title": "Sampling Effort",
+      "description": "The amount of effort expended during an Event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/samplingEffort"
+    },
+    {
+      "name": "samplingProtocol",
+      "title": "Sampling Protocol",
+      "description": "The name of, reference to, or description of the method or protocol used during an Event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/samplingProtocol"
+    },
+    {
+      "name": "sampleSizeValue",
+      "title": "Sampling Size Value",
+      "description": "A numeric value for a measurement of the size (time duration, length, area, or volume) of a sample in a sampling event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/sampleSizeValue"
+    },
+    {
+      "name": "sampleSizeUnit",
+      "title": "Sampling Size Unit",
+      "description": "The unit of measurement of the size (time duration, length, area, or volume) of a sample in a sampling event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/sampleSizeUnit"
+    },
+    {
+      "name": "scientificName",
+      "title": "Scientific Name",
+      "description": "The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.",
+      "uri": "http://rs.tdwg.org/dwc/terms/scientificName"
+    },
+    {
+      "name": "scientificNameAuthorship",
+      "title": "Scientific Name Authorship",
+      "description": "The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.",
+      "uri": "http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"
+    },
+    {
+      "name": "scientificNameID",
+      "title": "Scientific Name ID",
+      "description": "An identifier for the nomenclatural (not taxonomic) details of a scientific name.",
+      "uri": "http://rs.tdwg.org/dwc/terms/scientificNameID"
+    },
+    {
+      "name": "sex",
+      "title": "Sex",
+      "description": "The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/sex"
+    },
+    {
+      "name": "specificEpithet",
+      "title": "Specific Epithet",
+      "description": "The name of the first or species epithet of the scientificName.",
+      "uri": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+    },
+    {
+      "name": "startDayOfYear",
+      "title": "Start Day Of Year",
+      "description": "The earliest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).",
+      "uri": "http://rs.tdwg.org/dwc/terms/startDayOfYear"
+    },
+    {
+      "name": "stateProvince",
+      "title": "State Province",
+      "description": "The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.",
+      "uri": "http://rs.tdwg.org/dwc/terms/stateProvince"
+    },
+    {
+      "name": "subgenus",
+      "title": "Subgenus",
+      "description": "The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.",
+      "uri": "http://rs.tdwg.org/dwc/terms/subgenus"
+    },
+    {
+      "name": "Taxon",
+      "title": "Taxon",
+      "description": "A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.",
+      "uri": "http://rs.tdwg.org/dwc/terms/Taxon"
+    },
+    {
+      "name": "taxonConceptID",
+      "title": "Taxon Concept ID",
+      "description": "An identifier for the taxonomic concept to which the record refers - not for the nomenclatural details of a taxon.",
+      "uri": "http://rs.tdwg.org/dwc/terms/taxonConceptID"
+    },
+    {
+      "name": "taxonID",
+      "title": "Taxon ID",
+      "description": "An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.",
+      "uri": "http://rs.tdwg.org/dwc/terms/taxonID"
+    },
+    {
+      "name": "taxonomicStatus",
+      "title": "Taxonomic Status",
+      "description": "The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+    },
+    {
+      "name": "taxonRank",
+      "title": "Taxon Rank",
+      "description": "The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/taxonRank"
+    },
+    {
+      "name": "taxonRemarks",
+      "title": "Taxon Remarks",
+      "description": "Comments or notes about the taxon or name.",
+      "uri": "http://rs.tdwg.org/dwc/terms/taxonRemarks"
+    },
+    {
+      "name": "typeStatus",
+      "title": "Type Status",
+      "description": "A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject.",
+      "uri": "http://rs.tdwg.org/dwc/terms/typeStatus"
+    },
+    {
+      "name": "verbatimCoordinates",
+      "title": "Verbatim Coordinates",
+      "description": "The verbatim original spatial coordinates of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimCoordinates"
+    },
+    {
+      "name": "verbatimCoordinateSystem",
+      "title": "Verbatim Coordinate System",
+      "description": "The spatial coordinate system for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates of the Location. Recommended best practice is to use a controlled vocabulary.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem"
+    },
+    {
+      "name": "verbatimDepth",
+      "title": "Verbatim Depth",
+      "description": "The original description of the depth below the local surface.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimDepth"
+    },
+    {
+      "name": "verbatimElevation",
+      "title": "Verbatim Elevation",
+      "description": "The original description of the elevation (altitude, usually above sea level) of the Location.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimElevation"
+    },
+    {
+      "name": "verbatimEventDate",
+      "title": "Verbatim EventDate",
+      "description": "The verbatim original representation of the date and time information for an Event.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimEventDate"
+    },
+    {
+      "name": "verbatimLatitude",
+      "title": "Verbatim Latitude",
+      "description": "The verbatim original latitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimLatitude"
+    },
+    {
+      "name": "verbatimLocality",
+      "title": "Verbatim Locality",
+      "description": "The original textual description of the place.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimLocality"
+    },
+    {
+      "name": "verbatimLongitude",
+      "title": "Verbatim Longitude",
+      "description": "The verbatim original longitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimLongitude"
+    },
+    {
+      "name": "verbatimSRS",
+      "title": "Verbatim SRS",
+      "description": "The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in verbatimLatitude and verbatimLongitude, or verbatimCoordinates are based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value \"unknown\".",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimSRS"
+    },
+    {
+      "name": "verbatimTaxonRank",
+      "title": "Verbatim Taxon Rank",
+      "description": "The taxonomic rank of the most specific name in the scientificName as it appears in the original record.",
+      "uri": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+    },
+    {
+      "name": "vernacularName",
+      "title": "Vernacular Name",
+      "description": "A common or vernacular name.",
+      "uri": "http://rs.tdwg.org/dwc/terms/vernacularName"
+    },
+    {
+      "name": "waterBody",
+      "title": "Water Body",
+      "description": "The name of the water body in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.",
+      "uri": "http://rs.tdwg.org/dwc/terms/waterBody"
+    },
+    {
+      "name": "year",
+      "title": "Year",
+      "description": "The four-digit year in which the Event occurred, according to the Common Era Calendar.",
+      "uri": "http://rs.tdwg.org/dwc/terms/year"
+    }
+  ]
+}
+    

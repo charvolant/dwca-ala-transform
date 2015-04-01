@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive xmlns="http://rs.tdwg.org/dwc/text/">
+    <core encoding="utf-8" fieldsEnclosedBy="'" fieldsTerminatedBy="\t"
+          ignoreHeaderLines="0" linesTerminatedBy="\n" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+        <files>
+            <location>occurrence.txt</location>
+        </files>
+        <id index="0"/>
+        <field index="0" term="http://rs.tdwg.org/dwc/terms/catalogNumber"/>
+        <field index="1" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    </core>
+</archive>
